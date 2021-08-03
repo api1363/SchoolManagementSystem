@@ -4,8 +4,10 @@
   <link rel="stylesheet" type="text/css" href="style.css">  
   <style>
   .login-box{
-    height: 380px;
+    height: 460px;
+    width: 360px;
 }</style>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body>
     <form method="post" action="adminLoginAction.jsp">
@@ -16,6 +18,10 @@
             <input type="text" name="username" placeholder="Enter Username" required="required">
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password" required="required">
+            <div class="captcha-container" style="margin-bottom: 20px;">
+              <div class="g-recaptcha"
+                  data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+            </div>
             <input type="submit" name="submit" value="Login">
             </form>
              <center><h1><a href="index.html">Back</a></h1></center>
