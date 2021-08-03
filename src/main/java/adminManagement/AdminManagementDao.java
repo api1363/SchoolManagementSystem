@@ -44,7 +44,7 @@ public class AdminManagementDao {
 	}
 	
 	// create/insert an admin
-	public void insertadmin(AdminManagementModel admin) throws SQLException
+	public void insertAdmin(AdminManagementModel admin) throws SQLException
 	{
 		try
 		{
@@ -95,7 +95,7 @@ public class AdminManagementDao {
 			while (result.next())
 			{
 				String adminEmail = result.getString("adminEmail");
-				String adminPassword = getDecodedString(result.getString("password"));
+				String adminPassword = getDecodedString(result.getString("adminPassword"));
 				admin = new AdminManagementModel(adminEmail,adminPassword);
 			}
 		}
