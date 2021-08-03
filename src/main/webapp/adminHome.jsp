@@ -118,85 +118,7 @@
 
 
 
-<main class="my-form">
-    <div class="cotainer">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                    <div class="card">
-                        <div class="card-header">Insert New Result</div>
-                        <div class="card-body">
-                            <form name="my-form" onsubmit="return validform()" action="success.php" method="">
-                                <div class="form-group row">
-                                    <label for="full_name" class="col-md-4 col-form-label text-md-right">Roll Number</label>
-                                    <div class="col-md-6">
-                                        <input type="text"class="form-control" name="">
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Engg. Physics-I</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="">
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Engg. Chemistry</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="">
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">Engg. Mathematics-I</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="">
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label for="present_address" class="col-md-4 col-form-label text-md-right">Basic Electrical Engg</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="">
-                                    </div>
-                                </div>
-
-                                <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Electronic Engg.</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="">
-                                    </div>
-                                </div>
-                                
-                                 <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Engg. Chemistry Lab</label>
-                                    <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="">
-                                    </div>
-                                </div>
-                                
-                                 <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Engg. Physics Lab</label>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" name="">
-                                    </div>
-                                </div>
-                                
-                                    <div class="col-md-6 offset-md-4">
-                                        <button type="submit" class="btn btn-primary">
-                                       Save
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-            </div>
-        </div>
-        <br>
-    </div>
-
-</main>
+<
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -224,8 +146,7 @@
   <div class="tbl-content">
     <table cellpadding="0" cellspacing="0" border="0">
       <tbody>
-      <%@page ="java.sql.* %>
-      <%@page ="connection. %>
+     
       
         <tr>
           <td>B.Tech</td>
@@ -239,7 +160,7 @@
   </div>
 </section>
 </div>
-<div id="Tokyo1" class="w3-container w3-border city" style="display:none">
+
    
 
 </body>

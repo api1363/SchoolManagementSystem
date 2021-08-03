@@ -1,6 +1,5 @@
-<img src="logo.png"  align="left"width="150" height="150">
-<center><img src="dgi.png" width="150" height="150">
-<img src="apj sir.png" align="right"  width="150" height="150"></center>
+<%@page import ="connection.ConnectionProvider"%>
+<%@page import ="java.sql.*"%>
     <a href="dgiOneView.html">Back</a>
   <hr class="new1">
 <style>
