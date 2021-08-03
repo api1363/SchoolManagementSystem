@@ -6,27 +6,28 @@
   .login-box{
     height: 460px;
     width: 360px;
+}
+body{
+background-image:url("user1.jpg");
 }</style>
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<link rel="stylesheet" type="text/css" href="./captcha.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <form method="post" action="studentLoginAction.jsp">
-    <div class="login-box">
+    <form s method="post" action="adminLoginAction.jsp">
+    <div tyle="background-color:#cccccc;" class="login-box">
     <img src="user.png" class="avatar">
-        <h1>Student Login</h1>
-            <p>Username</p>
-            <input type="text" name="username" placeholder="Enter Username" required="required">
+        <h1>Admin Registration</h1>
+            <p>Email</p>
+            <input type="text" name="Email" placeholder="Enter Email" required="required">
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password" required="required">
             <div class="captcha-container" style="margin-bottom: 20px;">
               <div class="g-recaptcha"
                   data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
             </div>
-            <input type="submit" name="submit" value="Login">
+            <input type="submit" name="submit" value="Submit">
             </form>
              <center><h1><a href="index.html">Back</a></h1></center>
-        </div>  
+        </div>   
     </body>
 </html>
