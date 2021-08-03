@@ -1,7 +1,7 @@
 <%@include file="header.html"%>
 <!DOCTYPE html>
 <html>
-<title>DGI</title>
+<title>School Management System</title>
 <body>
 
 <div class="w3-container">
